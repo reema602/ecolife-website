@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <script src="js/encryption.js"></script>
+
+<h2>Encrypt a Message</h2>
+<button onclick="generateKeys()">Generate Keys</button><br><br>
+
+<label for="message">Message:</label>
+<input type="text" id="message">
+<button onclick="encryptMessage()">Encrypt</button>
+
+<h3>Encrypted Message:</h3>
+<p id="encrypted"></p>
+
+<button onclick="decryptMessage()">Decrypt</button>
+
+<h3>Decrypted Message:</h3>
+<p id="decrypted"></p>
+
     <header>
         <h1>Contact Us</h1>
         <nav>
